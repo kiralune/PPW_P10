@@ -1,0 +1,225 @@
+//Calista Sasikirana
+//24.12.3104
+//24-S1SI01
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabar Jogja</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" 
+     integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+        <header data-bs-theme="dark">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">KABAR JOGJA</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Politik</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Olahraga</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kesehatan</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Musik</a>
+                            </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                        <button class="btn btn-dark" type="submit">Search</button>
+                    </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+</body>
+
+<main>
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="dark">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="candi.jpg"  class="d-block w-100"/>
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <div class="carousel-caption text-start text-white">
+                        <h1>Eksplor Candi Prambanan</h1>
+                        <p>Candi Prambanan adalah kompleks candi Hindu terbesar di Indonesia yang terkenal dengan arsitektur megah dan kisah Ramayana yang melegenda.</p>
+                        <button class="btn btn-dark btn-lg">Baca Selengkapnya</button>
+                    </div>
+                </div>    
+            </div>
+            <div class="carousel-item active">
+                <img src="malioboro.jpg"  class="d-block w-100"/>
+                <div class="carousel-caption d-none d-md-block text-start text-white">
+                    <div class="carousel-caption text-start text-white">
+                        <h1>Berwisata di Malioboro</h1>
+                        <p>Malioboro adalah pusat perbelanjaan dan kuliner legendaris di Yogyakarta yang selalu ramai dikunjungi wisatawan lokal maupun mancanegara.</p>
+                        <button class="btn btn-dark btn-lg">Baca Selengkapnya</button>
+                    </div>
+                </div>    
+            </div>
+            <div class="carousel-item active">
+                <img src="pantai.jpg"  class="d-block w-100" />
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <div class="carousel-caption text-start text-white">
+                        <h1>Nikmati Senja di Pantai Gunung Kidul</h1>
+                        <p>Pantai-pantai di Gunung Kidul menawarkan pemandangan alam yang indah dengan pasir putih dan ombak tenang, cocok untuk menikmati senja yang menenangkan.</p>
+                        <button class="btn btn-dark btn-lg">Baca Selengkapnya</button>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+            <h2>Politik</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="politik.jpg" />
+                        <div class="card-body">
+                            <h4><a href="">Pilkada Serentak 2024 Siap Digelar</a></h4>
+                            <p class="card-text">Komisi Pemilihan Umum (KPU) memastikan pelaksanaan Pilkada Serentak 2024 berjalan sesuai jadwal dengan pengawasan ketat di setiap daerah.</p>
+                            <br>
+                            <div class="d-flex justify-content-end-align-items center">
+                                <button type="button" class="btn btn-dark">Selengkapnya</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="politik.jpg" />
+                        <div class="card-body">
+                            <h4><a href="">UU Cipta Kerja Revisi Disahkan DPR</a></h4>
+                            <p class="card-text">DPR RI resmi mengesahkan revisi UU Cipta Kerja dengan sejumlah perubahan yang menuai pro dan kontra di kalangan masyarakat dan pengamat.</p>
+                            <br>
+                            <div class="d-flex justify-content-end-align-items center">
+                                <button type="button" class="btn btn-dark">Selengkapnya</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="politik.jpg" />
+                        <div class="card-body">
+                            <h4><a href="">Isu Koalisi Besar Mencuat Jelang Pemilu</a></h4>
+                            <p class="card-text">Beberapa partai politik mulai menjajaki pembentukan koalisi besar untuk memperkuat strategi menghadapi Pemilu 2024 mendatang.</p>
+                            <br><br>
+                            <div class="d-flex justify-content-end-align-items center">
+                                <button type="button" class="btn btn-dark">Selengkapnya</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="politik.jpg" />
+                        <div class="card-body">
+                            <h4><a href="">Debat Capres Perdana Tarik Perhatian Publik</a></h4>
+                            <p class="card-text">Debat calon presiden perdana berlangsung sengit dengan sorotan tajam terhadap isu ekonomi, pendidikan, dan kebijakan luar negeri.</p>
+                            <br><br>
+                            <div class="d-flex justify-content-end-align-items center">
+                                <button type="button" class="btn btn-dark">Selengkapnya</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <br><br>
+            <h2>Olahraga</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="olahraga.jpg" />
+                        <div class="card-body">
+                            <h4><a href="">Timnas U-23 Cetak Sejarah di Piala Asia</a></h4>
+                            <p class="card-text">Timnas Indonesia U-23 mencetak sejarah baru dengan berhasil melaju ke babak semifinal Piala Asia. Keberhasilan ini diraih setelah pertandingan dramatis melawan tim Jepang yang berakhir dengan skor tipis. Pelatih dan pemain menunjukkan kerja sama luar biasa, strategi matang, serta semangat juang tinggi yang memukau para penonton. Prestasi ini menjadi tonggak baru bagi sepak bola Indonesia di kancah internasional dan diharapkan mampu menginspirasi generasi muda untuk terus berprestasi dalam dunia olahraga.</p>
+                            <div class="d-flex justify-content-end-align-items center">
+                                <button type="button" class="btn btn-dark">Selengkapnya</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="olahraga.jpg" />
+                        <div class="card-body">
+                            <h4><a href="">Persaingan Ketat di Liga 1 Musim Ini</a></h4>
+                            <p class="card-text">Liga 1 Indonesia musim ini menghadirkan persaingan ketat antar tim papan atas yang saling kejar dalam perolehan poin. Pertandingan demi pertandingan berlangsung dengan tensi tinggi dan kualitas permainan yang terus meningkat. Beberapa nama baru juga mulai mencuri perhatian publik, memperlihatkan bahwa regenerasi pemain berjalan baik. Para pendukung setia masing-masing klub memberikan dukungan penuh, menciptakan atmosfer stadion yang luar biasa setiap pekan.</p>
+                            <br>
+                            <div class="d-flex justify-content-end-align-items center">
+                                <button type="button" class="btn btn-dark">Selengkapnya</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="olahraga.jpg" />
+                        <div class="card-body">
+                            <h4><a href="">Atlet Indonesia Raih Gelar All Egypt</a></h4>
+                            <p class="card-text">Ganda putra bulu tangkis Indonesia berhasil menorehkan prestasi gemilang dengan menjuarai turnamen All England 2025. Dalam laga final yang menegangkan, pasangan Indonesia menunjukkan permainan solid, serangan cepat, dan pertahanan kokoh. Kemenangan ini disambut hangat oleh masyarakat dan menjadi bukti nyata bahwa bulu tangkis masih menjadi cabang olahraga unggulan tanah air. Dukungan dari pelatih dan PBSI turut berperan besar dalam pencapaian membanggakan ini.</p>
+                            <br><br>
+                            <div class="d-flex justify-content-end-align-items center">
+                                <button type="button" class="btn btn-dark">Selengkapnya</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="olahraga.jpg" />
+                        <div class="card-body">
+                            <h4><a href="">Marathon Yogyakarta Diminati Ribuan Peserta</a></h4>
+                            <p class="card-text">Event olahraga lari Marathon Yogyakarta 2025 sukses digelar dengan melibatkan lebih dari 5.000 peserta dari dalam maupun luar negeri. Rute yang menampilkan keindahan kota dan budaya Jogja menjadi daya tarik tersendiri bagi para pelari. Acara ini juga dimeriahkan oleh pertunjukan seni lokal dan stand UMKM yang mendukung promosi budaya sekaligus ekonomi daerah. Diharapkan event ini terus berkembang dan menjadi agenda tahunan berskala internasional.</p>
+                            <br><br>
+                            <div class="d-flex justify-content-end-align-items center">
+                                <button type="button" class="btn btn-dark">Selengkapnya</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    
+    <footer class="container-fluid bg-dark text-white py-4 mt-5" data-bs-theme="dark">
+        <p class="float-end"><a href="#" class="text-white">Back to top</a></p>
+        <p>&copy; 2017-2023 Kabar Jogja Company, Inc. &middot; <a href="#" class="text-white">Privacy</a> &middot; <a href="#" class="text-white">Terms</a></p>
+    </footer>
+
+</main>
+
+</html>
